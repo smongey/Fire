@@ -2,3 +2,9 @@
 .ember-application {
     margin: 20px;
 }
+* { -webkit-font-smoothing: antialiased; }
+.hello { -webkit-transition: all ease .2s; position: fixed; top:30px; right:30px; width:60px; height:60px; border-radius:30px; display: block; background: #f2f2f2; border: none; }
+.hello:hover { background-color: #000; color:#fff; }
+a { margin: 5px; }
+.editing { margin: 30px; }
+input, textarea { border:none; outline:none; padding: 10px; background: #f2f2f2; display: block; margin: 10px 0; width: 40%; }
